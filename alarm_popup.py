@@ -11,7 +11,6 @@ def play_alarm_sound():
     playsound("music.mp3")
 
 def show_popup():
-    """Menampilkan popup di tengah layar saat alarm berbunyi."""
     popup = tk.Tk()
     popup.title("Ayo Sayang Udah Waktunya")
     
